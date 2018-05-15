@@ -1,5 +1,5 @@
 body {
-	background-color: #FFFAF0;
+	background-color: #FFFFFF;
 }
 
 h1 {
@@ -99,7 +99,7 @@ h2 {
 .well {
 	border-color: #a3a375;
 	border-width: 1.5px;
-	background: #FFFAF0;
+	background: #FFFFFF;
 }
 
 @media only screen and (max-width: 480px) {
