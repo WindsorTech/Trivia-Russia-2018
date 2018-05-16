@@ -9,11 +9,11 @@ var secs = 10;
 
 // Array of objects with questions data
 var questions = [{
-    question: "1. What is the largest country in the world?",
-    choices: ["China", "Russia", "United States", "Canada"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/yqj1Nq2LDeWPu/giphy.gif' width=290 height=200>",
-    text: "Russia is the world's largest country, with a total area of 17.1 million square kilometers",
-    correctAnswer: 1
+    question: "1. In what year was the first FIFA World Cup played?",
+    choices: ["1915", "1920", "1930", "1935"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/tooiHX1mFOv28/giphy.gif' width=290 height=200>",
+    text: "The first FIFA World Cup was hosted by Uruguay in 1930",
+    correctAnswer: 2
 }, {
     question: "2. What is the approximate population of India?",
     choices: ["750 million", "900 million", "1 billion", "1.2 billion"],
@@ -56,6 +56,18 @@ var questions = [{
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif' width=290 height=200>",
     text: "Our planet Earth is approximately 4.5 billion years old",
     correctAnswer: 2
+}, {
+    question: "9. What is the largest country in the world?",
+    choices: ["China", "Russia", "United States", "Canada"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/yqj1Nq2LDeWPu/giphy.gif' width=290 height=200>",
+    text: "Russia is the world's largest country, with a total area of 17.1 million square kilometers",
+    correctAnswer: 1
+}, {
+    question: "10. What is the largest country in the world?",
+    choices: ["China", "Russia", "United States", "Canada"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/yqj1Nq2LDeWPu/giphy.gif' width=290 height=200>",
+    text: "Russia is the world's largest country, with a total area of 17.1 million square kilometers",
+    correctAnswer: 1
 }];
 
     // Hide other buttons on Start screen
