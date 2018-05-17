@@ -15,23 +15,23 @@ var questions = [{
     text: "The first FIFA World Cup was hosted by Uruguay in 1930",
     correctAnswer: 2
 }, {
-    question: "2. What is the approximate population of India?",
-    choices: ["750 million", "900 million", "1 billion", "1.2 billion"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/qj9LH3O2Td1Kg/giphy.gif' width=290 height=200>",
-    text: "India's current population is approximately 1.2 billion people",
+    question: "2. What country has won the FIFA World Cup most times?",
+    choices: ["Germany", "Argentina", "Italy", "Brazil"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/L1RCuTvmJILT2/giphy.gif' width=290 height=200>",
+    text: "Brazil has won the FIFA World Cup five times",
     correctAnswer: 3
 }, {
-    question: "3. What is the capital city of Australia?",
-    choices: ["Melbourne", "Sydney", "Canberra", "Adelaide"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/luFnd5dLvB4pW/giphy.gif' width=290 height=200>",
-    text: "Canberra is the capital of Australia",
-    correctAnswer: 2
+    question: "3. How many nations will play at the 2018 World Cup in Russia?",
+    choices: ["30", "32", "36", "38"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/iTnQ737jr4mtO/giphy.gif' width=290 height=200>",
+    text: "The 2018 FIFA World Cup will be played by 32 nations",
+    correctAnswer: 1
 }, {
-    question: "4. In what continent is Chile located?",
-    choices: ["Central America", "Asia", "South America", "Europe"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/VHuvKNvDvIszC/giphy.gif' width=290 height=200>",
-    text: "Chile is located on the western coast of South America",
-    correctAnswer: 2
+    question: "4. What player is the all time World Cup top goalscorer?",
+    choices: ["Pele", "Miroslav Klose", "Ronaldo", "Diego Maradona"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/l7IRjqleM7eXS/giphy.gif' width=290 height=200>",
+    text: "Miroslav Klose (Germany) has scored a total of 16 goals in four World Cups",
+    correctAnswer: 1
 }, {
     question: "5. What is the currency of Brazil?",
     choices: ["Brazilian Real", "Brazilian Dollar", "Brazilian Peso", "Brazilian Crown"],
