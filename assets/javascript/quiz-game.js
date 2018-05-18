@@ -9,59 +9,59 @@ var secs = 10;
 
 // Array of objects with questions data
 var questions = [{
-    question: "1. In what year was the first FIFA World Cup played?",
-    choices: ["1915", "1920", "1930", "1935"],
+    question: "1. In what year did the first FIFA World Cup take place?",
+    choices: ["1910", "1920", "1930", "1940"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/tooiHX1mFOv28/giphy.gif' width=290 height=200>",
     text: "The first FIFA World Cup was hosted by Uruguay in 1930",
     correctAnswer: 2
 }, {
-    question: "2. What country has won the FIFA World Cup most times?",
-    choices: ["Germany", "Argentina", "Italy", "Brazil"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/L1RCuTvmJILT2/giphy.gif' width=290 height=200>",
-    text: "Brazil has won the FIFA World Cup five times",
+    question: "2. How often is the FIFA World Cup played?",
+    choices: ["Every year", "Every 2 years", "Every 3 years", "Every 4 years"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/k9ht5KqdKk3wk/giphy.gif' width=290 height=200>",
+    text: "The FIFA World Cup is played every four years",
     correctAnswer: 3
 }, {
-    question: "3. How many nations will play at the 2018 World Cup in Russia?",
+    question: "3. How many nations will play in the 2018 World Cup in Russia?",
     choices: ["30", "32", "36", "38"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/iTnQ737jr4mtO/giphy.gif' width=290 height=200>",
     text: "The 2018 FIFA World Cup will be played by 32 nations",
     correctAnswer: 1
 }, {
-    question: "4. What player is the all time World Cup top goalscorer?",
+    question: "4. What country has won the FIFA World Cup most times?",
+    choices: ["Germany", "Argentina", "Italy", "Brazil"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/tWCLvU1GAAIpy/giphy.gif' width=290 height=200>",
+    text: "Brazil has won the FIFA World Cup five times",
+    correctAnswer: 3
+}, {
+    question: "5. What two countries will be making their first World Cup appearance in Russia?",
+    choices: ["Iceland and Panama", "Serbia and Iceland", "Panama and Costa Rica", "Iceland and Costa Rica"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/l46C72ug3KlBd55Qc/giphy.gif' width=290 height=200>",
+    text: "Iceland and Panama will play the FIFA World Cup for the first time",
+    correctAnswer: 0
+}, {
+    question: "6. What player is the World Cup top goalscorer of all time?",
     choices: ["Pele", "Miroslav Klose", "Ronaldo", "Diego Maradona"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/l7IRjqleM7eXS/giphy.gif' width=290 height=200>",
     text: "Miroslav Klose (Germany) has scored a total of 16 goals in four World Cups",
     correctAnswer: 1
 }, {
-    question: "5. What is the currency of Brazil?",
-    choices: ["Brazilian Real", "Brazilian Dollar", "Brazilian Peso", "Brazilian Crown"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/GR7S6M8eUQwKY/giphy.gif' width=290 height=200>",
-    text: "Brazil's official currency is called Real",
-    correctAnswer: 0
-}, {
-    question: "6. Between what years did World War I take place?",
+    question: "7. Between what years did World War I take place?",
     choices: ["1904 - 1908", "1914 - 1918", "1929 - 1935", "1939 - 1945"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/hsTBcU33SmtmE/giphy.gif' width=290 height=200>",
     text: "World War I happened from 1914 to 1918",
     correctAnswer: 1
 }, {
-    question: "7. What is the world's most popular sport?",
+    question: "8. What is the world's most popular sport?",
     choices: ["Basketball", "Football", "Baseball", "Soccer"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/l2JhGDtOnOyeqDM4w/giphy.gif' width=290 height=200>",
     text: "Soccer is the most popular sport in the world",
     correctAnswer: 3
 }, {
-    question: "8. What is Earth's approximate age?",
+    question: "9. What is Earth's approximate age?",
     choices: ["2.3 billion years", "3.6 billion years", "4.5 billion years", "5.2 billion years"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif' width=290 height=200>",
     text: "Our planet Earth is approximately 4.5 billion years old",
     correctAnswer: 2
-}, {
-    question: "9. What is the largest country in the world?",
-    choices: ["China", "Russia", "United States", "Canada"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/yqj1Nq2LDeWPu/giphy.gif' width=290 height=200>",
-    text: "Russia is the world's largest country, with a total area of 17.1 million square kilometers",
-    correctAnswer: 1
 }, {
     question: "10. What is the largest country in the world?",
     choices: ["China", "Russia", "United States", "Canada"],
