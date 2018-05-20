@@ -27,47 +27,47 @@ var questions = [{
     text: "The 2018 FIFA World Cup will be played by 32 nations",
     correctAnswer: 1
 }, {
-    question: "4. What country has won the FIFA World Cup most times?",
-    choices: ["Germany", "Argentina", "Italy", "Brazil"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/tWCLvU1GAAIpy/giphy.gif' width=290 height=200>",
-    text: "Brazil has won the FIFA World Cup five times",
-    correctAnswer: 3
-}, {
-    question: "5. What two countries will be making their first World Cup appearance in Russia?",
+    question: "4. What two countries will be making their first World Cup appearance in Russia?",
     choices: ["Iceland and Panama", "Serbia and Iceland", "Panama and Costa Rica", "Iceland and Costa Rica"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/l46C72ug3KlBd55Qc/giphy.gif' width=290 height=200>",
     text: "Iceland and Panama will play the FIFA World Cup for the first time",
     correctAnswer: 0
 }, {
-    question: "6. What player is the World Cup top goalscorer of all time?",
+    question: "5. How many cities will host the 2018 FIFA World Cup in Russia?",
+    choices: ["10", "11", "12", "13"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/l4EoWNm0kYs43OzCw/giphy.gif' width=290 height=200>",
+    text: "The 2018 FIFA World Cup will be hosted by 11 cities",
+    correctAnswer: 1
+}, {
+    question: "6. What country has won the FIFA World Cup most times?",
+    choices: ["Germany", "Argentina", "Italy", "Brazil"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/tWCLvU1GAAIpy/giphy.gif' width=290 height=200>",
+    text: "Brazil has won the FIFA World Cup five times",
+    correctAnswer: 3
+}, {
+    question: "7. What player is the World Cup top goalscorer of all time?",
     choices: ["Pele", "Miroslav Klose", "Ronaldo", "Diego Maradona"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/l7IRjqleM7eXS/giphy.gif' width=290 height=200>",
     text: "Miroslav Klose (Germany) has scored a total of 16 goals in four World Cups",
     correctAnswer: 1
 }, {
-    question: "7. What is the only country to have played in every World Cup in history?",
+    question: "8. What two athletes have won the World Cup both as a player and later as a coach?",
+    choices: ["Pele and Maradona", "Beckenbauer and Zidane", "Zagallo and Matthaus", "Klinsmann and Platini"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/fI5pB1CQqVMJ2/giphy.gif' width=290 height=200>",
+    text: "Mario Zagallo (Brazil) and Lothar Matthaus (Germany) have won the World Cup both as a player and coach",
+    correctAnswer: 2
+}, {
+    question: "9. What is the only country to have played in every World Cup in history?",
     choices: ["Uruguay", "England", "Brazil", "Germany"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/L1RCuTvmJILT2/giphy.gif' width=290 height=200>",
-    text: "Only Brazil has quaified to every World Cup since it began in 1930",
-    correctAnswer: 1
+    text: "Only Brazil has qualified to every World Cup since it began in 1930",
+    correctAnswer: 2
 }, {
-    question: "8. How many Russian cities will host the 2018 FIFA World Cup?",
-    choices: ["10", "11", "12", "13"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/l4EoWNm0kYs43OzCw/giphy.gif' width=290 height=200>",
-    text: "The 2018 FIFA Worlc Cup will be hosted by 11 cities",
-    correctAnswer: 1
-}, {
-    question: "9. How many Russian cities will host the 2018 FIFA World Cup?",
-    choices: ["10", "11", "12", "13"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/l4EoWNm0kYs43OzCw/giphy.gif' width=290 height=200>",
-    text: "Our planet Earth is approximately 4.5 billion years old",
-    correctAnswer: 1
-}, {
-    question: "10. What is the largest country in the world?",
-    choices: ["China", "Russia", "United States", "Canada"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/yqj1Nq2LDeWPu/giphy.gif' width=290 height=200>",
-    text: "Russia is the world's largest country, with a total area of 17.1 million square kilometers",
-    correctAnswer: 1
+    question: "10. Which country has never won a World Cup?",
+    choices: ["Netherlands", "France", "Argentina", "Spain"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/VQm6QbezyBqNy/giphy.gif' width=290 height=200>",
+    text: "The Netherlands has reached the final 3 times, but never won the World Cup",
+    correctAnswer: 0
 }];
 
     // Hide other buttons on Start screen
@@ -218,7 +218,7 @@ function displayCurrentQuestion() {
                 currentQuestion++;  
 
                 // If the game is at the last question, show the Result button
-                if (currentQuestion == 8) {
+                if (currentQuestion == 10) {
                     $(".nextButton").hide();
                     $(".resultButton").show();
                 }
