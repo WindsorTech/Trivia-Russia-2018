@@ -45,23 +45,23 @@ var questions = [{
     text: "Miroslav Klose (Germany) has scored a total of 16 goals in four World Cups",
     correctAnswer: 1
 }, {
-    question: "7. Between what years did World War I take place?",
-    choices: ["1904 - 1908", "1914 - 1918", "1929 - 1935", "1939 - 1945"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/hsTBcU33SmtmE/giphy.gif' width=290 height=200>",
-    text: "World War I happened from 1914 to 1918",
+    question: "7. What is the only country to have played in every World Cup in history?",
+    choices: ["Uruguay", "England", "Brazil", "Germany"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/L1RCuTvmJILT2/giphy.gif' width=290 height=200>",
+    text: "Only Brazil has quaified to every World Cup since it began in 1930",
     correctAnswer: 1
 }, {
-    question: "8. What is the world's most popular sport?",
-    choices: ["Basketball", "Football", "Baseball", "Soccer"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/l2JhGDtOnOyeqDM4w/giphy.gif' width=290 height=200>",
-    text: "Soccer is the most popular sport in the world",
-    correctAnswer: 3
+    question: "8. How many Russian cities will host the 2018 FIFA World Cup?",
+    choices: ["10", "11", "12", "13"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/l4EoWNm0kYs43OzCw/giphy.gif' width=290 height=200>",
+    text: "The 2018 FIFA Worlc Cup will be hosted by 11 cities",
+    correctAnswer: 1
 }, {
-    question: "9. What is Earth's approximate age?",
-    choices: ["2.3 billion years", "3.6 billion years", "4.5 billion years", "5.2 billion years"],
-    giphy: "<img class='gif-img' src='https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif' width=290 height=200>",
+    question: "9. How many Russian cities will host the 2018 FIFA World Cup?",
+    choices: ["10", "11", "12", "13"],
+    giphy: "<img class='gif-img' src='https://media.giphy.com/media/l4EoWNm0kYs43OzCw/giphy.gif' width=290 height=200>",
     text: "Our planet Earth is approximately 4.5 billion years old",
-    correctAnswer: 2
+    correctAnswer: 1
 }, {
     question: "10. What is the largest country in the world?",
     choices: ["China", "Russia", "United States", "Canada"],
