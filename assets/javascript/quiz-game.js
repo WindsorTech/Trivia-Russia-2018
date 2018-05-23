@@ -33,7 +33,7 @@ var questions = [{
     text: "Iceland and Panama will play the FIFA World Cup for the first time",
     correctAnswer: 0
 }, {
-    question: "5. How many cities will host the 2018 FIFA World Cup in Russia?",
+    question: "5. How many Russian cities will host the 2018 FIFA World Cup?",
     choices: ["10", "11", "12", "13"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/l4EoWNm0kYs43OzCw/giphy.gif' width=290 height=200>",
     text: "The 2018 FIFA World Cup will be hosted by 11 cities",
@@ -54,7 +54,7 @@ var questions = [{
     question: "8. What two athletes have won the World Cup both as a player and later as a coach?",
     choices: ["Pele and Maradona", "Beckenbauer and Zidane", "Zagallo and Matthaus", "Klinsmann and Platini"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/fI5pB1CQqVMJ2/giphy.gif' width=290 height=200>",
-    text: "Mario Zagallo (Brazil) and Lothar Matthaus (Germany) have won the World Cup both as a player and coach",
+    text: "Zagallo (Brazil) and Matthaus (Germany) have won the World Cup as a player and coach",
     correctAnswer: 2
 }, {
     question: "9. What is the only country to have played in every World Cup in history?",
