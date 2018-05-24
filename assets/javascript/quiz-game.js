@@ -4,6 +4,7 @@ $(document).ready(function () {
 var currentQuestion = 0;
 var correctAnswers = 0;
 var wrongAnswers = 0;
+var totalScore = 0;
 var quizOver = false;
 var secs = 10;
 
@@ -323,6 +324,7 @@ function displayCurrentQuestion() {
         currentQuestion = 0;
         correctAnswers = 0;
         wrongAnswers = 0;
+        totalScore = 0;
 
 
         // Hide and show appropriate elements on screen
