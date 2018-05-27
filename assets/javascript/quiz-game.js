@@ -164,6 +164,38 @@ function displayCurrentQuestion() {
     }
 }
 
+//=========================================================//
+
+function computeScore() {
+
+    if (secs == 10) {
+        totalScore += 100 
+    } else if (secs == 9) {
+        totalScore += 90
+    } else if (secs == 8) {
+        totalScore += 80
+    } else if (secs == 7) {
+        totalScore += 70
+    } else if (secs == 6) {
+        totalScore += 60
+    } else if (secs == 5) {
+        totalScore += 50
+    } else if (secs == 4) {
+        totalScore += 40
+    } else if (secs == 3) {
+        totalScore += 30
+    } else if (secs == 2) {
+        totalScore += 20
+    } else if (secs == 1) {
+        totalScore += 10
+    } else if (secs == 0) {
+        totalScore += 0
+    }
+                    
+    console.log(totalScore);
+
+}
+
 
 //========================================================//
 
@@ -174,11 +206,11 @@ function displayCurrentQuestion() {
         value = $("input[type='radio']:checked").val();
 
         $(".answer-container").show();
-
-        secs = 0;
                 
                 // if the user answer is correct     
                 if (value == questions[currentQuestion].correctAnswer) {
+
+                    computeScore();
 
                     // Add to the score
                     correctAnswers++;
@@ -196,28 +228,7 @@ function displayCurrentQuestion() {
                     $(".checkButton").hide();
                     $(".nextButton").show();
 
-                    // IF STATEMENT WITH POINTS SCORE
-                    // 10 secs = 100 pts
-                    // 1 sec = 10 pts
-                    // $(".checkButton").click(function(){});
-                    // var totalScore = 0;
-
-                    $(".checkButton").click(function(){
-                    if (secs = 10) {
-                        totalScore += 100 
-                    } else if (secs = 9) {
-                        totalScore += 90
-                    } else if (secs = 8) {
-                        totalScore += 80
-                    } else if (secs = 7) {
-                        totalScore += 70
-                    } else if (secs = 6) {
-                        totalScore += 60
-                    }
-                    console.log(totalScore);
-                    });
-
-                    
+                    secs = 0;
 
                 } else { // if the user answer is wrong
 
@@ -236,6 +247,8 @@ function displayCurrentQuestion() {
 
                     $(".checkButton").hide();
                     $(".nextButton").show();
+
+                    secs = 0;
                 } 
 
                 // Increase currentQuestion so the game moves on to the next question
