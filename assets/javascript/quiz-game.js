@@ -6,7 +6,7 @@ var correctAnswers = 0;
 var wrongAnswers = 0;
 var totalScore = 0;
 var quizOver = false;
-var secs = 10;
+var secs = 15;
 
 // Array of objects with questions data
 var questions = [{
@@ -141,7 +141,10 @@ var questions = [{
 function displayCurrentQuestion() {
 
     // Timer text
-    $('.timer-zone').text("Time Remaining: 10 seconds");
+    $('.timer-zone').text("Time Remaining: 15 seconds");
+
+     // Display score on screen
+    $('.score-zone').text("Current score: " +totalScore+ " points");
 
     // Variables to access the object data to create questions and choices
     var question = questions[currentQuestion].question;
@@ -168,8 +171,18 @@ function displayCurrentQuestion() {
 
 function computeScore() {
 
-    if (secs == 10) {
-        totalScore += 100 
+    if (secs == 15) {
+        totalScore += 150 
+    } else if (secs == 14) {
+        totalScore += 140
+    } else if (secs == 13) {
+        totalScore += 130
+    } else if (secs == 12) {
+        totalScore += 120
+    } else if (secs == 11) {
+        totalScore += 110
+    } else if (secs == 10) {
+        totalScore += 100
     } else if (secs == 9) {
         totalScore += 90
     } else if (secs == 8) {
@@ -192,10 +205,10 @@ function computeScore() {
         totalScore += 0
     }
                     
-    console.log(totalScore);
+     // Display score on screen
+    $('.score-zone').text("Current score: " +totalScore+ " points");
 
 }
-
 
 //========================================================//
 
@@ -217,6 +230,7 @@ function computeScore() {
 
                     // Hide and show appropriate elements to display answer screen
                     $(".timer-zone").hide();
+                    $(".score-zone").hide();
                     $(".question").hide();
                     $(".choiceList").hide();
                     $(".quizMessage").hide();
@@ -228,6 +242,7 @@ function computeScore() {
                     $(".checkButton").hide();
                     $(".nextButton").show();
 
+                    // reset timer
                     secs = 0;
 
                 } else { // if the user answer is wrong
@@ -237,6 +252,7 @@ function computeScore() {
 
                     // Hide and show appropriate elements to display answer screen
                     $(".timer-zone").hide();
+                    $(".score-zone").hide();
                     $(".question").hide();
                     $(".choiceList").hide();
                     $(".quizMessage").hide();
@@ -248,6 +264,7 @@ function computeScore() {
                     $(".checkButton").hide();
                     $(".nextButton").show();
 
+                    // reset timer
                     secs = 0;
                 } 
 
@@ -281,10 +298,11 @@ function computeScore() {
             $('.timer-zone').text("Time Remaining: 10 seconds");
 
             // Set up seconds to restart timer
-            secs = 11;
+            secs = 16;
 
             // Set up game environment - hide and show appropriate elements
             $(".timer-zone").show();
+            $(".score-zone").show();
             $(".question").show();
             $(".choiceList").show();
             $(".checkButton").show();
@@ -321,6 +339,7 @@ function computeScore() {
         $(".answer-container").show();
 
         // Display results texts on page
+        // Display Final Score here
         $(".answer-msg").text("RESULTS");
         $(".answer-msg2").html("<p>Correct Answers: " + correctAnswers + "</p><p>Wrong Answers: " + wrongAnswers + "</p>");
 
