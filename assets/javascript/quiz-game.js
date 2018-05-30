@@ -339,26 +339,29 @@ function computeScore() {
         $(".answer-container").show();
 
         // Display results texts on page
-        // Display Final Score here
         $(".answer-msg").text("RESULTS");
-        $(".answer-msg2").html("<p>Correct Answers: " + correctAnswers + "</p><p>Wrong Answers: " + wrongAnswers + "</p>");
+        $(".answer-msg2").html("<p>Total Score: " + totalScore + " points </p><p>Correct Answers: " + correctAnswers + "</p><p>Wrong Answers: " + wrongAnswers + "</p>");
 
         // Display results final advice, depending on user score
         if (correctAnswers <= 2 ) {
 
-            $(".answer-gif").text("You need to improve your world knowledge, think outside the box!");
+            $(".answer-gif").text("Well, it is obvious that soccer is not your favorite sport!");
 
         } else if (correctAnswers > 2 && correctAnswers <= 4) {
 
-            $(".answer-gif").text("Good job, but the world believes you can do better next time!");
+            $(".answer-gif").text("You need to watch more World Cup games, don't miss out!");
 
         } else if (correctAnswers > 4 && correctAnswers <= 6) {
 
-            $(".answer-gif").text("Awesome job, stay curious and you will conquer the world!");
+            $(".answer-gif").text("Keep improving your soccer knowledge and you'll get to the top!");
 
-        } else if (correctAnswers > 6) {
+        } else if (correctAnswers > 6 && correctAnswers <= 8) {
 
-            $(".answer-gif").text("You are a world master! Have you thought about running for president?!");
+            $(".answer-gif").text("Nice job, you surely are a soccer fan!");
+
+        } else if (correctAnswers > 8) {
+
+            $(".answer-gif").text("You are a true World Cup encyclopedia, well done!");
             
         }
 
