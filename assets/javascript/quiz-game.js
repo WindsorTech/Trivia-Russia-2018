@@ -357,7 +357,7 @@ function computeScore() {
 
         } else if (correctAnswers > 6 && correctAnswers <= 8) {
 
-            $(".answer-gif").text("Nice job, you surely are a soccer fan!");
+            $(".answer-gif").text("Nice job, you are surely a soccer fan!");
 
         } else if (correctAnswers > 8) {
 
