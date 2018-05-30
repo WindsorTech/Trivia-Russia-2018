@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+// Hide other buttons on Start screen
+$(".checkButton").hide();
+$(".nextButton").hide();
+$(".resultButton").hide();
+$(".playAgainButton").hide();
+
 // Game Variables
 var currentQuestion = 0;
 var correctAnswers = 0;
@@ -70,12 +76,6 @@ var questions = [{
     text: "The Netherlands has reached the final 3 times, but never won the World Cup",
     correctAnswer: 0
 }];
-
-    // Hide other buttons on Start screen
-    $(".checkButton").hide();
-    $(".nextButton").hide();
-    $(".resultButton").hide();
-    $(".playAgainButton").hide();
 
     // On the click of the Start Button - start the game
     $(".start-button").click(function(){
