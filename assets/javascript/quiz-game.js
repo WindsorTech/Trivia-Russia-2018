@@ -172,29 +172,29 @@ function displayCurrentQuestion() {
 function computeScore() {
 
     if (secs == 15) {
-        totalScore += 150 
+        totalScore += 100 
     } else if (secs == 14) {
-        totalScore += 140
+        totalScore += 95
     } else if (secs == 13) {
-        totalScore += 130
-    } else if (secs == 12) {
-        totalScore += 120
-    } else if (secs == 11) {
-        totalScore += 110
-    } else if (secs == 10) {
-        totalScore += 100
-    } else if (secs == 9) {
         totalScore += 90
-    } else if (secs == 8) {
+    } else if (secs == 12) {
         totalScore += 80
-    } else if (secs == 7) {
+    } else if (secs == 11) {
         totalScore += 70
-    } else if (secs == 6) {
+    } else if (secs == 10) {
+        totalScore += 65
+    } else if (secs == 9) {
         totalScore += 60
-    } else if (secs == 5) {
+    } else if (secs == 8) {
+        totalScore += 55
+    } else if (secs == 7) {
         totalScore += 50
-    } else if (secs == 4) {
+    } else if (secs == 6) {
+        totalScore += 45
+    } else if (secs == 5) {
         totalScore += 40
+    } else if (secs == 4) {
+        totalScore += 35
     } else if (secs == 3) {
         totalScore += 30
     } else if (secs == 2) {
@@ -295,7 +295,7 @@ function computeScore() {
     function nextQuestion() {
 
             // Timer text
-            $('.timer-zone').text("Time Remaining: 10 seconds");
+            $('.timer-zone').text("Time Remaining: 15 seconds");
 
             // Set up seconds to restart timer
             secs = 16;
@@ -340,7 +340,7 @@ function computeScore() {
 
         // Display results texts on page
         $(".answer-msg").text("RESULTS");
-        $(".answer-msg2").html("<p>Total Score: " + totalScore + " points </p><p>Correct Answers: " + correctAnswers + "</p><p>Wrong Answers: " + wrongAnswers + "</p>");
+        $(".answer-msg2").html("<p>Final Score: <font color='#104eb2'>" + totalScore + "</font> of 1000 points </p><p>Correct Answers: <font color='#104eb2'>" + correctAnswers + "</font></p><p>Wrong Answers: <font color='#104eb2'>" + wrongAnswers + "</font></p>");
 
         // Display results final advice, depending on user score
         if (correctAnswers <= 2 ) {
