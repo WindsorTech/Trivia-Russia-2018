@@ -5,6 +5,7 @@ $(".checkButton").hide();
 $(".nextButton").hide();
 $(".resultButton").hide();
 $(".playAgainButton").hide();
+$(".facebook-button").hide();
 
 // Game Variables
 var currentQuestion = 0;
@@ -272,7 +273,7 @@ function computeScore() {
                 currentQuestion++;  
 
                 // If the game is at the last question, show the Result button
-                if (currentQuestion == 10) {
+                if (currentQuestion == 1) {
                     $(".nextButton").hide();
                     $(".resultButton").show();
                 }
@@ -337,6 +338,7 @@ function computeScore() {
 
         $(".playAgainButton").show();
         $(".answer-container").show();
+        $(".facebook-button").show();
 
         // Display results texts on page
         $(".answer-msg").text("RESULTS");
@@ -392,6 +394,7 @@ function computeScore() {
 
         $(".answer-container").hide();
         $(".playAgainButton").hide();
+        $(".facebook-button").hide();
 
         // Call the function to show first question
         nextQuestion();
