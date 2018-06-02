@@ -37,6 +37,11 @@ h2 {
 	margin-bottom: 15px;
 }
 
+.facebook-button {
+	margin-top: -15px;
+	margin-bottom: 10px;
+}
+
 .score-zone {
 	text-align: center;
 	font-size: 20px;
