@@ -173,29 +173,29 @@ function displayCurrentQuestion() {
 function computeScore() {
 
     if (secs == 15) {
-        totalScore += 100 
+        totalScore += 150 
     } else if (secs == 14) {
-        totalScore += 95
+        totalScore += 140
     } else if (secs == 13) {
-        totalScore += 90
+        totalScore += 130
     } else if (secs == 12) {
-        totalScore += 80
+        totalScore += 120
     } else if (secs == 11) {
-        totalScore += 70
+        totalScore += 110
     } else if (secs == 10) {
-        totalScore += 65
+        totalScore += 100
     } else if (secs == 9) {
-        totalScore += 60
+        totalScore += 90
     } else if (secs == 8) {
-        totalScore += 55
+        totalScore += 80
     } else if (secs == 7) {
-        totalScore += 50
+        totalScore += 70
     } else if (secs == 6) {
-        totalScore += 45
+        totalScore += 60
     } else if (secs == 5) {
-        totalScore += 40
+        totalScore += 50
     } else if (secs == 4) {
-        totalScore += 35
+        totalScore += 40
     } else if (secs == 3) {
         totalScore += 30
     } else if (secs == 2) {
@@ -342,7 +342,7 @@ function computeScore() {
 
         // Display results texts on page
         $(".answer-msg").text("RESULTS");
-        $(".answer-msg2").html("<p>Final Score: <font color='#104eb2'>" + totalScore + "</font> of 1000 points </p><p>Correct Answers: <font color='#104eb2'>" + correctAnswers + "</font></p><p>Wrong Answers: <font color='#104eb2'>" + wrongAnswers + "</font></p>");
+        $(".answer-msg2").html("<p>Final Score: <font color='#104eb2'>" + totalScore + "</font> points</p><p>Correct Answers: <font color='#104eb2'>" + correctAnswers + "</font></p><p>Wrong Answers: <font color='#104eb2'>" + wrongAnswers + "</font></p>");
 
         // Display results final advice, depending on user score
         if (correctAnswers <= 2 ) {
