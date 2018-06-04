@@ -273,7 +273,7 @@ function computeScore() {
                 currentQuestion++;  
 
                 // If the game is at the last question, show the Result button
-                if (currentQuestion == 1) {
+                if (currentQuestion == 10) {
                     $(".nextButton").hide();
                     $(".resultButton").show();
                 }
@@ -342,7 +342,7 @@ function computeScore() {
 
         // Display results texts on page
         $(".answer-msg").text("RESULTS");
-        $(".answer-msg2").html("<p>Final Score: <font color='#104eb2'>" + totalScore + "</font> points</p><p>Correct Answers: <font color='#104eb2'>" + correctAnswers + "</font></p><p>Wrong Answers: <font color='#104eb2'>" + wrongAnswers + "</font></p>");
+        $(".answer-msg2").html("<p>Final Score: <font color='#104eb2'>" + totalScore + "</font> points</p><p>You've got <font color='#104eb2'>" + correctAnswers + "</font> right answers</p><p>and <font color='#104eb2'>" + wrongAnswers + "</font> wrong answers</p>");
 
         // Display results final advice, depending on user score
         if (correctAnswers <= 2 ) {
