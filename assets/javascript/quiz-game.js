@@ -36,7 +36,7 @@ var questions = [{
     correctAnswer: 1
 }, {
     question: "4. What two countries will be making their first World Cup appearance in Russia?",
-    choices: ["Iceland and Panama", "Serbia and Iceland", "Panama and Costa Rica", "Iceland and Costa Rica"],
+    choices: ["Iceland and Panama", "Panama and Costa Rica", "Serbia and Iceland", "Iceland and Costa Rica"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/l46C72ug3KlBd55Qc/giphy.gif' width=290 height=200>",
     text: "Iceland and Panama will play the FIFA World Cup for the first time",
     correctAnswer: 0
