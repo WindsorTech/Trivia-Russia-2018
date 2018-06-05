@@ -16,7 +16,7 @@ h2 {
 }
 
 .container {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .title a {
@@ -136,7 +136,6 @@ h2 {
 	.mobile-advert {
 		display: block;
 		margin-top: 10px;
-		margin-bottom: 10px;
 	}	
 
 	.container {
@@ -176,7 +175,6 @@ h2 {
 	.mobile-advert {
 		display: block;
 		margin-top: 10px;
-		margin-bottom: 10px;
 	}	
 
 	.container {
