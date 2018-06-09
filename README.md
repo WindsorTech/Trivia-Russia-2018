@@ -1,7 +1,8 @@
-## World Facts Quiz Game
+## Russia 2018 Trivia Game
 
-### How much do you know about the world? Test your knowledge with this mobile-responsive fun quiz developed using JQuery. You have 10 seconds to choose the right answer for each one of the questions, and at the end the computer will evaluate your performance! Good luck!
+### How much do you know about the FIFA World Cup? Test your knowledge with this fun quiz - the quicker you answer, the more points you get!
 
-### You can play the World Facts Quiz game here: https://world-quiz.herokuapp.com/
+### You can play the Russia 2018 Trivia Game here: https://world-cup-trivia.herokuapp.com/
 
-![InfoMedia Search](https://github.com/windsor80/QuizGame/blob/master/assets/images/world-quiz.jpg?raw=true)
+![InfoMedia Search](https://github.com/WindsorTech/Trivia-Russia-2018/blob/master/assets/images/world-cup-game.jpg?raw=true)
+
