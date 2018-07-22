@@ -47,15 +47,15 @@ var questions = [{
     correctAnswer: 3
 }, {
     question: "7. What player is the World Cup top goalscorer of all time?",
-    choices: ["Pele", "Miroslav Klose", "Ronaldo", "Diego Maradona"],
+    choices: ["Pele", "Klose", "Ronaldo", "Maradona"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/l7IRjqleM7eXS/giphy.gif' width=290 height=200>",
     text: "Miroslav Klose (Germany) has scored a total of 16 goals in four World Cups",
     correctAnswer: 1
 }, {
     question: "8. What two athletes have won the World Cup both as a player and later as a coach?",
-    choices: ["Pele and Maradona", "Beckenbauer and Zidane", "Zagallo and Matthaus", "Klinsmann and Platini"],
+    choices: ["Pele and Maradona", "Cruyff and Zidane", "Zagallo and Beckenbauer", "Klinsmann and Platini"],
     giphy: "<img class='gif-img' src='https://media.giphy.com/media/fI5pB1CQqVMJ2/giphy.gif' width=290 height=200>",
-    text: "Zagallo (Brazil) and Matthaus (Germany) have won the World Cup as a player and coach",
+    text: "Zagallo (Brazil) and Beckenbauer (Germany) have won the World Cup as a player and coach",
     correctAnswer: 2
 }, {
     question: "9. What is the only country to have played in every World Cup in history?",
